@@ -1,17 +1,17 @@
 ---
-date: 2015-01-03 05:54:23
-title: Two things are infinite
-description: And I'm not sure about the universe.
-category: Misc
+date: 2020-02-14 20:55:55
+title: Flexbox !
+description: Como criar grids simples com essa propriedade.
+category: CSS
+image: "assets/img/vader.jpg"
 ---
 
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```javascript
-a=3
-puts a
+```jsx
+  const cuzao = 666
 ```
 
 ## Fusce a metus eu

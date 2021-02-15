@@ -21,12 +21,18 @@ export const LinkWrapper = styled.nav`
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 1.2rem;
     transition: all 0.2s ease-in-out;
   }
 
   a:hover {
     color: white;
+  }
+
+  @media(max-width: 480px) {
+    a {
+      font-size: .8rem;
+    }
   }
 `

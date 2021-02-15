@@ -12,4 +12,10 @@ export const MainWrapper = styled(Grid)`
   border-top: 3px solid rgba(192, 41, 66, 0.8);
   border-radius: 6px 6px 0 0;
   box-shadow: 0 -20px 40px rgb(0 0 0 / 20%);
+
+  @media(max-width: 768px) {
+    width: 90%;
+  }
+
+
 `

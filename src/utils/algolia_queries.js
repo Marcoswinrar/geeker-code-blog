@@ -11,6 +11,7 @@ const postQuery = `{
           category
           date_timestamp: date
           date(locale: "pt-br", formatString: "DD [de] MMMM")
+          description
         }
         excerpt(pruneLength: 5000)
       }

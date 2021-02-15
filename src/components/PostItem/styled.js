@@ -1,12 +1,12 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostItemWrapper = styled.div`
   color: white;
   text-transform: uppercase;
   margin: 10px;
 `
-export const PostItemLink = styled(Link)`
+export const PostItemLink = styled(AniLink)`
   text-decoration: none;
 `
 export const PostItemDate = styled.time`
@@ -35,17 +35,35 @@ export const PostItemHash = styled.span`
   font-size: 1.2rem;
 `
 export const PostItemContent = styled.div`
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   height: 340px;
   overflow: hidden;
   text-overflow: ellipsis;
-  background: url(${props => props.backgroundImage}) 50% 50%;
+  background: rgba(18,65,96,.4);
   padding: 20px;
   transition: background .5s ease;
 
   &:hover {
-    background: url(${props => props.backgroundImage}) 50% 35% repeat;
+    background: rgba(192,41,66,.4);
   }
 }
+`
+
+export const PostItemTitle = styled.div`
+  font-family : 'Exo', sans-serif, Roboto;
+  font-size: 2rem;
+
+
+  @media(max-width: 1168px) {
+    font-size: 1.4rem;
+  }
+
+  @media(max-width: 768px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const PostItemDescription = styled.div`

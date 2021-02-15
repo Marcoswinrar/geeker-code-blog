@@ -9,5 +9,9 @@ export const LogoWrapper = styled.h1`
   text-transform: uppercase;
   text-align: center;
   margin-top: 5%;
+
+  @media(max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 `

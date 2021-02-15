@@ -15,8 +15,6 @@ const BlogList = props => {
   const prevPage = currentPage - 1 === 1 ? '/' : `/page/${currentPage - 1}`
   const nextPage = `/page/${currentPage + 1}`
 
-  console.log(postList)
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -24,16 +22,16 @@ const BlogList = props => {
         {postList.map(
           ({
             node: {
-              frontmatter: { category, date, title, background },
+              frontmatter: { category, date, title, description },
               fields: {
                 slug
               }
             }
-          }) => (
-            <Col xs={12} sm={6} md={6} lg={3}>
+          }, i) => (
+            <Col xs={12} md={6}  xl={3} key={i}>
               <PostItem
                 slug={slug}
-                background={background}
+                description={description}
                 category={category}
                 date={date}
                 title={title}
@@ -70,7 +68,7 @@ export const query = graphql`
             category
             date(locale: "pt-br", formatString: "DD [de] MMMM")
             title
-            background
+            description
           }
           timeToRead
         }
