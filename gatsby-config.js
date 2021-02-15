@@ -1,12 +1,27 @@
+
+
+
+require("dotenv").config()
+const queries = require("./src/utils/algolia_queries")
+
 module.exports = {
   siteMetadata: {
     title: `Geeker Code`,
-    description: `Um blog geek sobre rotina, desenvolvimento e quem sabe educação financeira.`,
-    author: `Marcos Eduardo Winiarski`,
+    position: `Front-End Developer`,
+    description: `Um blog sobre rotina, cultura geek misturada a programação e desenvolvimento.`,
+    author: `@myblog`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    // needs to be the first to work with gatsby-remark-images
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,11 +39,26 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads",
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false,
+            },
+          },
+          `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`
+        ],
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -39,6 +69,18 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-algolia-search`,
+      options: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+        enablePartialUpdates: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
