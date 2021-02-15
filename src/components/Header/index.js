@@ -7,6 +7,7 @@ const Header = () => (
     <S.LinkWrapper>
       <Link to="/">Home</Link>
       <Link to="/about">Sobre</Link>
+      <Link to="/search">Buscar Conteúdo</Link>
     </S.LinkWrapper>
   </S.HeaderWrapper>
 )

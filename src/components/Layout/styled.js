@@ -8,7 +8,6 @@ export const MainWrapper = styled(Grid)`
   width: 70%;
   margin: 5% auto;
   padding-top: 2%;
-  padding-bottom: 2%;
   background-color: rgba(10, 10, 10, 0.8);
   border-top: 3px solid rgba(192, 41, 66, 0.8);
   border-radius: 6px 6px 0 0;

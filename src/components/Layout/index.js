@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       <Particles
         params={ParticleConfig}
         style={{
-          position: "absolute",
+          position: "fixed",
           zIndex: "-1",
         }}
       />

@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 export const PostItemWrapper = styled.div`
   color: white;
   text-transform: uppercase;
+  margin: 10px;
 `
 export const PostItemLink = styled(Link)`
   text-decoration: none;

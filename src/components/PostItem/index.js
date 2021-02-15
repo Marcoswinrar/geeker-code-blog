@@ -23,7 +23,7 @@ PostItem.propTypes = {
   category: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  background: PropTypes.string.isRequired
 }
 
 export default PostItem
