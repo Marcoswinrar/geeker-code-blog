@@ -3,7 +3,8 @@ import styled from "styled-components"
 export const SearchWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
   transition: opacity 0.4s;
   .ais-InstantSearch__root {
     display: flex;
@@ -21,22 +22,15 @@ export const SearchWrapper = styled.section`
     padding-bottom: 1rem;
   }
 
-  .ais-Stats {
-    color: white;
-  }
-
   .ais-SearchBox-input {
     background: none;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid black;
     display: flex;
     font-size: 1.3rem;
     padding: 0.5rem;
     width: 100%;
-    &::placeholder {
-      color: white;
-    }
+    margin: 0 auto;
   }
   .ais-SearchBox-submit,
   .ais-SearchBox-reset {

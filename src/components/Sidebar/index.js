@@ -7,7 +7,7 @@ const Sidebar = () => (
     <S.LinkWrapper>
       <Link activeClassName="active" to="/">Home</Link>
       <Link activeClassName="active" to="/about">Sobre</Link>
-      <Link activeClassName="active" to="/search">Buscar Conteúdo</Link>
+      <Link activeClassName="active" to="/search">Conteúdo</Link>
     </S.LinkWrapper>
   </S.SidebarWrapper>
 )

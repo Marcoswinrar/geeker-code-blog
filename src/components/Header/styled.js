@@ -1,51 +1,50 @@
 import styled from "styled-components"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import media from "styled-media-query"
 
 export const HeaderWrapper = styled.header`
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  background-color: black;
-  border-bottom: 3px solid rgba(192, 41, 66, 0.8);
-
-  .active {
-    color: white;
-  }
-
-
-  ${media.lessThan("small")`
-    position: fixed;
-    top: 0;
-    z-index: 1;
-
+  ${media.lessThan("medium")`
+      flex-flow: column;
+      width: 90%;
   `}
 
 `
 
-export const LinkWrapper = styled.nav`
+export const LinkWrapper = styled.div`
   display: flex;
-  width: 100%;
-  justify-content: center;
-
-  a {
-    color: #c02942;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: .8rem;
-    padding: 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-
-  a:hover {
+  align-items: center;
+  svg {
+    width: 30px;
+    height: 30px;
     color: white;
+    margin-left: 3px;
+    transition: all .2 ease;
   }
 
+  svg: hover {
+    color: #c02942;
+  }
 
-  ${media.lessThan("small")`
-    display:none;
+  ${media.lessThan("medium")`
+     margin-top: 10px;
   `}
+
+`
+
+export const SearchLink = styled(AniLink)`
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2 ease;
+
+  &:hover {
+    color: #c02942
+  }
+`
+
+export const SocialLinksWrapper = styled.div`
+
+    ${media.lessThan("small")`
+        display:none;
+    `}
 `

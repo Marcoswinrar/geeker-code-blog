@@ -1,22 +1,38 @@
 import React from "react"
 import PropTypes from "prop-types"
+import LastPost from "./LastPost"
 import * as S from "./styled"
 
-const PostItem = ({ slug, category, date, title, description, background }) => (
+const PostItem = ({ slug, category, date, title, description, background, index, image }) => (
   <S.PostItemLink cover direction="left" duration={0.6} bg="black" to={slug}>
-    <S.PostItemWrapper>
-      <S.PostItemInfo>
-        <S.PostItemDate>{date}</S.PostItemDate>
-        <S.PostItemTag>
-          <S.PostItemHash>#</S.PostItemHash>
-          {category}
-        </S.PostItemTag>
-      </S.PostItemInfo>
-      <S.PostItemContent background={background}>
-        <S.PostItemTitle>{title}</S.PostItemTitle>
-      </S.PostItemContent>
-      <S.PostItemDescription>{description}</S.PostItemDescription>
-    </S.PostItemWrapper>
+    {
+      index === 0 ?
+        <LastPost
+          image={image}
+          background={background}
+          category={category}
+          title={title}
+          date={date}
+        />
+        :
+        <S.PostItemWrapper image={image}>
+          <S.PostItemContent>
+            <S.PostItemTag background={background}>
+              {category}
+            </S.PostItemTag>
+            <S.PostItemDescription>
+              {description}
+            </S.PostItemDescription>
+          </S.PostItemContent>
+          <S.PostItemFooter>
+            <S.PostItemTitle>{title}</S.PostItemTitle>
+            <S.PostItemInfo>
+              <S.PostItemDate>{date}</S.PostItemDate>
+            </S.PostItemInfo>
+          </S.PostItemFooter>
+        </S.PostItemWrapper>
+    }
+
   </S.PostItemLink>
 )
 

@@ -10,8 +10,10 @@ const postQuery = `{
           title
           category
           date_timestamp: date
-          date(locale: "pt-br", formatString: "DD [de] MMMM")
+          date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
           description
+          background
+          image
         }
         excerpt(pruneLength: 5000)
       }

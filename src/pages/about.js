@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { MainContent } from "../components/Post/styled"
-import SocialLinks from "../components/SocialLinks"
 
 const AboutPage = () => (
   <Layout>
@@ -37,9 +36,8 @@ const AboutPage = () => (
       </p>
       <h2>Contato</h2>
       <p>
-        Você pode entrar em contato comigo atráves de qualquer um dos links abaixo.
+        Você pode entrar em contato comigo atráves de qualquer um dos links que estão no cabeçalho do blog.
       </p>
-      <SocialLinks />
     </MainContent>
 
   </Layout >

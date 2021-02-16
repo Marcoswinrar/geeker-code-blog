@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
+import { GetPostGridCols } from "../utils/grid_cols"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -22,13 +23,13 @@ const BlogList = props => {
         {postList.map(
           ({
             node: {
-              frontmatter: { category, date, title, description, background },
+              frontmatter: { category, date, title, description, background, image},
               fields: {
                 slug
               }
             }
           }, i) => (
-            <Col xs={12} md={6} lg={6} xl={3} key={i}>
+            <Col xs={12} md={6} lg={6} xl={GetPostGridCols(i)} key={i}>
               <PostItem
                 slug={slug}
                 description={description}
@@ -36,6 +37,9 @@ const BlogList = props => {
                 date={date}
                 title={title}
                 background={background}
+                index={i}
+                image={image}
+                firstPage={isFirst}
               />
             </Col>
           )
@@ -67,10 +71,11 @@ export const query = graphql`
           }
           frontmatter {
             category
-            date(locale: "pt-br", formatString: "DD [de] MMMM")
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             title
             description
             background
+            image
           }
           timeToRead
         }

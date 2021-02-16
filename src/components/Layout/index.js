@@ -3,9 +3,10 @@ import PropTypes from "prop-types"
 import Particles from "react-particles-js"
 import ParticleConfig from "../../config/Particle"
 import Header from "../Header"
+import Navbar from "../Navbar"
 import GlobalStyles from "../../styles/global"
-import Logo from "../Logo"
 import * as S from "./styled"
+import FooterBar from "../FooterBar"
 
 const Layout = ({ children }) => {
   return (
@@ -19,8 +20,13 @@ const Layout = ({ children }) => {
         }}
       />
       <Header />
-      <Logo />
-      <S.MainWrapper fluid>{children}</S.MainWrapper>
+      <Navbar />
+      <S.MainWrapper>
+        <S.GridWrapper>
+          {children}
+        </S.GridWrapper>
+      </S.MainWrapper>
+      <FooterBar />
     </S.LayoutWrapper>
   )
 }

@@ -37,7 +37,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
-        date(locale: "pt-br", formatString: "DD [de] MMMM")
+        date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         image
       },
       timeToRead

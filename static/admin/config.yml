@@ -1,11 +1,12 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
-  branch: master
-  site_domain: geeker-code.netlify.com
-  publish_mode: editorial_workflow
-  media_folder: "static/assets/img"
-  public_folder: "assets/img"
+  repo: Marcoswinrar/geeker-code-blog
+  branch: Main
+  site_domain: https://geeker-code.netlify.com
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
