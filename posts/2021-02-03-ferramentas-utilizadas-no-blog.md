@@ -3,6 +3,7 @@ date: 2019-01-15 20:55:55
 title: Começando um blog!
 description: Quais ferramentas foram utilizadas para desenvolver.
 category: Misc
+background: rgba(39, 174, 96, .8)
 ---
 
 # Lorem ipsum

@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const SearchPage = () => (
   <Layout>
-    <SEO title="Buscar Conteúdo" />
+    <SEO title="Buscar Conteúdo" description="Faça aqui um filtro do que quer ver."/>
     <Search />
   </Layout>
 )

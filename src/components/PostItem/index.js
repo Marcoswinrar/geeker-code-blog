@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import * as S from "./styled"
 
-const PostItem = ({ slug, category, date, title, description }) => (
+const PostItem = ({ slug, category, date, title, description, background }) => (
   <S.PostItemLink cover direction="left" duration={0.6} bg="black" to={slug}>
     <S.PostItemWrapper>
       <S.PostItemInfo>
@@ -12,7 +12,7 @@ const PostItem = ({ slug, category, date, title, description }) => (
           {category}
         </S.PostItemTag>
       </S.PostItemInfo>
-      <S.PostItemContent>
+      <S.PostItemContent background={background}>
         <S.PostItemTitle>{title}</S.PostItemTitle>
       </S.PostItemContent>
       <S.PostItemDescription>{description}</S.PostItemDescription>

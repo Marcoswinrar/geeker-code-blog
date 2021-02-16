@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const LogoWrapper = styled.h1`
   color: white;
@@ -10,8 +11,17 @@ export const LogoWrapper = styled.h1`
   text-align: center;
   margin-top: 5%;
 
-  @media(max-width: 768px) {
-    font-size: 2rem;
-  }
+  ${media.between("small", "medium")`
+    font-size: 3.5rem;  
+  `}
+
+  ${media.lessThan("small")`
+    font-size: 1.75rem;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    z-index: 1;
+  `}
+
 }
 `

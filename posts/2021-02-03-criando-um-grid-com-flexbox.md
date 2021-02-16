@@ -1,8 +1,9 @@
 ---
 date: 2020-02-14 20:55:55
-title: Flexbox !
+title: Começando um blog!!
 description: Como criar grids simples com essa propriedade.
 category: CSS
+background: rgba(231, 76, 60, .8)
 image: "assets/img/vader.jpg"
 ---
 

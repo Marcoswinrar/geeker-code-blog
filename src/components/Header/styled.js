@@ -1,28 +1,41 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const HeaderWrapper = styled.header`
   width: 100%;
   height: 80px;
   display: flex;
+  align-items: center;
   position: relative;
-  z-index: 1;
   background-color: black;
   border-bottom: 3px solid rgba(192, 41, 66, 0.8);
+
+  .active {
+    color: white;
+  }
+
+
+  ${media.lessThan("small")`
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+  `}
+
 `
 
 export const LinkWrapper = styled.nav`
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
 
   a {
     color: #c02942;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.2rem;
-    padding: 1.2rem;
+    font-size: 1rem;
+    padding: 1rem;
     transition: all 0.2s ease-in-out;
   }
 
@@ -30,9 +43,8 @@ export const LinkWrapper = styled.nav`
     color: white;
   }
 
-  @media(max-width: 480px) {
-    a {
-      font-size: .8rem;
-    }
-  }
+
+  ${media.lessThan("small")`
+    display:none;
+  `}
 `

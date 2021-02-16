@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import media from "styled-media-query"
 
 export const PostItemWrapper = styled.div`
   color: white;
@@ -42,28 +43,38 @@ export const PostItemContent = styled.div`
   height: 340px;
   overflow: hidden;
   text-overflow: ellipsis;
-  background: rgba(18,65,96,.4);
+  background: ${props => props.background};
   padding: 20px;
   transition: background .5s ease;
 
   &:hover {
     background: rgba(192,41,66,.4);
   }
+
+  ${media.lessThan("small")`
+    height: 160px;
+  `}
+
 }
 `
 
 export const PostItemTitle = styled.div`
   font-family : 'Exo', sans-serif, Roboto;
   font-size: 2rem;
+  text-align: justify;
 
+  ${media.between("large", "huge")`
+    font-size: 1.6rem;
+  `}
 
-  @media(max-width: 1168px) {
-    font-size: 1.4rem;
-  }
-
-  @media(max-width: 768px) {
+  ${media.lessThan("medium")`
     font-size: 1.2rem;
-  }
+  `}
+
+  ${media.lessThan("small")`
+    font-size: 2rem;
+  `}
+
 `
 
 export const PostItemDescription = styled.div`
