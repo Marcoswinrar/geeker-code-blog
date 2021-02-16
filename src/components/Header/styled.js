@@ -32,9 +32,10 @@ export const LinkWrapper = styled.nav`
   a {
     color: #c02942;
     text-decoration: none;
+    text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: .8rem;
     padding: 1rem;
     transition: all 0.2s ease-in-out;
   }
