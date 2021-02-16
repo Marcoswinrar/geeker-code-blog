@@ -31,7 +31,7 @@ export const LinkWrapper = styled.nav`
     a {
       text-decoration: none;
       color: white;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-transform: uppercase;
       font-family: 'Exo', sans-serif;
       padding: 1%;

@@ -19,9 +19,7 @@ export const MainWrapper = styled(Grid)`
   `}
 
   ${media.lessThan("small")`
-    position: relative;
-    top: 83px;
-    z-index: 0;
+    margin-top: 120px;
     height: 100%;
     background-color: rgba(10, 10, 10, 0.8);
   `}

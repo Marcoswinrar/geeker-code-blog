@@ -3,8 +3,8 @@ import { Menu } from "@styled-icons/feather/Menu"
 import media from "styled-media-query"
 
 export const MenuIconWrapper = styled(Menu)`
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   color: #c02942;
   margin-right: 10px;
   display:none;

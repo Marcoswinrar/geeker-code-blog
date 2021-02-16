@@ -61,7 +61,7 @@ export const PostItemContent = styled.div`
 export const PostItemTitle = styled.div`
   font-family : 'Exo', sans-serif, Roboto;
   font-size: 2rem;
-  text-align: justify;
+  text-align: center;
 
   ${media.between("large", "huge")`
     font-size: 1.6rem;
