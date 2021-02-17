@@ -85,6 +85,12 @@ module.exports = {
         enablePartialUpdates: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: process.env.GATSBY_GA_TRACKING_ID || "none"
+      }
+    },
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

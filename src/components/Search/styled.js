@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SearchWrapper = styled.section`
   display: flex;
@@ -12,6 +13,22 @@ export const SearchWrapper = styled.section`
     height: auto;
     width: 100%;
   }
+
+  .ais-Hits-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .ais-Hits-item {
+    width: 80%;
+
+    ${media.lessThan("small")`
+      width: 100%;
+    `}
+  }
+
   .ais-SearchBox,
   .ais-Stats {
     padding: 0.5rem 3rem;
