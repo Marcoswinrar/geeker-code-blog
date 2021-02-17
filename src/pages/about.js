@@ -36,7 +36,7 @@ const AboutPage = () => (
       </p>
       <h2>Contato</h2>
       <p>
-        Você pode entrar em contato comigo atráves de qualquer um dos links que estão no cabeçalho do blog.
+        Você pode entrar em contato comigo atráves de qualquer um dos links que estão no cabeçalho do blog ou abaixo caso esteja acessando pelo celular.
       </p>
     </MainContent>
 
