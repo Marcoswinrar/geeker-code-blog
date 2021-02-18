@@ -7,6 +7,7 @@ import Navbar from "../Navbar"
 import GlobalStyles from "../../styles/global"
 import * as S from "./styled"
 import FooterBar from "../FooterBar"
+import ScrollTop from "../ScrollTop"
 
 const Layout = ({ children }) => {
   return (
@@ -27,6 +28,7 @@ const Layout = ({ children }) => {
         </S.GridWrapper>
       </S.MainWrapper>
       <FooterBar />
+      <ScrollTop />
     </S.LayoutWrapper>
   )
 }

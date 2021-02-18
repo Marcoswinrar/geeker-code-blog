@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Marcoswinrar/geeker-code-blog
   branch: Main
-  site_domain: geeker-code.netlify.com
+  site_domain: geekercode.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -23,7 +23,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
         }
-      - { label: "image", name: "image", widget: "image" }
+      - { label: "image", name: "image", widget: "thumbnail" }
       - {
         label: "Category",
         name: "category",

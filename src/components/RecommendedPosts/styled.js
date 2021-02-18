@@ -22,6 +22,7 @@ export const RecommendedLink = styled(AniLink)`
   text-decoration: none;
   width: 100%;
   transition: color .2s ease;
+  color: black;
 
   &:hover {
     color: #c02942

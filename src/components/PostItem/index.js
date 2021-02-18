@@ -8,11 +8,11 @@ const PostItem = ({ slug, category, date, title, description, background, index,
     {
       index === 0 ?
         <LastPost
-          image={image}
           background={background}
           category={category}
           title={title}
           date={date}
+          image={image}
         />
         :
         <S.PostItemWrapper image={image}>

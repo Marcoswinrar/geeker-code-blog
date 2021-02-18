@@ -4,7 +4,6 @@ import Logo from "../Logo"
 import * as S from "./styled"
 import { Search } from "@styled-icons/feather/Search"
 
-
 const Header = () => {
   return (
     <S.HeaderWrapper style={{
@@ -20,7 +19,12 @@ const Header = () => {
       </S.SocialLinksWrapper>
       <Logo />
       <S.LinkWrapper>
-        <S.SearchLink cover direction="left" duration={0.6} bg="black" to="/search/">Buscar <Search /></S.SearchLink>
+        <S.TextSearch>
+          <S.SearchLink cover direction="left" duration={0.6} bg="black" to="/search/">Buscar</S.SearchLink>
+        </S.TextSearch>
+        <S.SearchLink cover direction="left" duration={0.6} bg="black" to="/search/">
+          <Search />
+        </S.SearchLink>
       </S.LinkWrapper>
     </S.HeaderWrapper>
   )

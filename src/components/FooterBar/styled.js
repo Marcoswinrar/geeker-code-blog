@@ -3,14 +3,17 @@ import media from "styled-media-query"
 
 export const FooterBarWrapper = styled.footer`
   position: fixed;
-  bottom:0;
+  bottom: 0;
   width: 100%;
   height: 45px;
   background: black;
   padding: 5px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
 
-  ${media.greaterThan("small")`
+  ${media.greaterThan("medium")`
     display: none;
   `}
 `
