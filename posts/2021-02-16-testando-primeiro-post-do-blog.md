@@ -23,6 +23,8 @@ Então, a partir dai decidi que meus pensamentos se tornariam em um propósito e
 
 Assim se iniciou o processo de construção desse blog **(Teremos um post somente falando da parte técnica da construção, ferramentas e tudo mais)** e aqui estou eu na primeira versão e também no primeiro post.
 
+**Então, de qual lado da força você está ?** Do lado das pessoas que fazem diferente e tem um propósito, ou das que  apenas pensam e não concretizam.
+
 ## 2 : Inspiração (Design)
 
 Bom, no quesito de inspiração, decide uma pegada mais dark, mesmo não tendo muito apego com design... E olha que foi eu mesmo que fiz ele **(não me julguem...)**
@@ -39,7 +41,7 @@ Espero que agrade, porém muitas mudanças provavelmente irão acontecer ao long
 
 ## 3: Tecnologias
 
-Iremos ter um post falando sobre isso, e o que eu usei. Porém uma das inspirações para finalmente criar meu blog foi de fato a tecnologia e um certo novo framework que conheci e usando para o desenvolvimento.
+Iremos ter um post falando sobre isso, e o que eu usei. Porém uma das inspirações para finalmente criar meu blog foi de fato a tecnologia e um certo novo framework que conheci e acabei usando para o desenvolvimento.
 
 ## Conclusão
 
