@@ -31,11 +31,11 @@ Bom, no quesito de inspiração, decide uma pegada mais dark, mesmo não tendo m
 
 **Desktop**
 
-![Visual inicial do blog](assets/img/visual-01.png "Primeiro visual desenvolvido do blog geeker code")
+![Visual inicial do blog](../assets/img/visual-01.png "Primeiro visual desenvolvido do blog geeker code")
 
 **Mobile**
 
-![Primeiro visual mobile](assets/img/visual-01-mobile.png "Primeiro visual da versão mobile do blog")
+![Primeiro visual mobile](../assets/img/visual-01-mobile.png "Primeiro visual da versão mobile do blog")
 
 Espero que agrade, porém muitas mudanças provavelmente irão acontecer ao longo do tempo e da linha dos posts.
 
