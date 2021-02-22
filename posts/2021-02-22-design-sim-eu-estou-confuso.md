@@ -8,8 +8,6 @@ background: "#637a91"
 ---
 Bom, nessa seção irei falar do processo de criação/protótipo do meu blog. E o quão confuso é isso !
 
-
-
 ## Dores de um desenvolvedor front-end
 
 Como desenvolvedor nunca me importei com UX/UI, alias no meu trabalho tenho uma equipe muito bacana, que faz com que eu nem precise me preocupar com isso. Mas fora desse mundo perfeito, quando me deparei em pensar algo pro meu site eu fiquei de fato muito confuso.
@@ -20,7 +18,7 @@ Até que powwww, uma ideia. Sou muito fã de **Star Wars**, e também gosto muit
 
 No final tive o seguinte resultado:
 
-## **Desktop (Página inicial)**
+## **Página Inicial**
 
 ![Layout do blog.](assets/img/visual-01.png "Primeiro layout desktop do blog.")
 
@@ -29,3 +27,11 @@ Veja que é bem simples, com cores boas, um cabeçalho simples sem muitos elemen
 A parte de posts é um grid simples, com destaque para o ultimo post, que toma várias colunas a mais dos demais.
 
 Além disso uma paginação no final, é claro né teremos muitos posts né não ? Precisamos paginar.
+
+## Página do Post
+
+![]()
+
+A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquotes, links, imagens. Tudo tem que estar perfeito, para ser possível a leitura efetiva dos textos, visualização das imagens sem quebrar nada, principalmente no mobile.
+
+Também temos que pensar em acessibilidade para pessoas que possuem deficiência. E que acabam usando leitores de tela entre outros. Então sempre lembre-se de por títulos e descrições em imagens e outros elementos visuais.
