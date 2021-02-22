@@ -42,7 +42,7 @@ Além de tudo isso, no final do post temos uma seção de indicação de outros 
 
 ## Posts Recomendados
 
-![Post recomendado](assets/img/post-recomendado-01.png "Visual do post recomendado no blog")
+![Post recomendado](/assets/img/post-recomendado-01.png "Visual do post recomendado no blog")
 
 ## Página de Busca
 
