@@ -12,6 +12,7 @@ export const FooterBarWrapper = styled.footer`
   align-items: center;
   justify-content: flex-start;
   padding-left: 60px;
+  z-index: 999;
 
   ${media.greaterThan("medium")`
     display: none;
