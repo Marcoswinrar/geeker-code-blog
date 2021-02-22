@@ -18,7 +18,9 @@ Até que powwww, uma ideia. Sou muito fã de **Star Wars**, e também gosto muit
 
 No final tive o seguinte resultado:
 
-## **Página Inicial**
+## Desktop
+
+## **Página Inicial** 
 
 ![Layout do blog.](assets/img/visual-01.png "Primeiro layout desktop do blog.")
 
@@ -28,7 +30,7 @@ A parte de posts é um grid simples, com destaque para o ultimo post, que toma v
 
 Além disso uma paginação no final, é claro né teremos muitos posts né não ? Precisamos paginar.
 
-## Página do Post
+##  Post
 
 ![Visual do post](assets/img/post-01.png "Primeiro visual da página de post.")
 
@@ -37,3 +39,25 @@ A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquo
 Também temos que pensar em acessibilidade para pessoas que possuem deficiência. E que acabam usando leitores de tela entre outros. Então sempre lembre-se de por títulos e descrições em imagens e outros elementos visuais.
 
 Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo post.
+
+
+
+## Mobile
+
+Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e de fato usara o seu celular para acessar. Então quando o assunto é blog, com seções de posts. Devemos sim, nos preocupar muito com a versão mobile. No meu caso, pela simplicidade, só precisei adaptar o grid de posts, a barra com minhas redes sociais e a parte interna do post, nela vem o grande trabalho de então reduzir textos, ter um espaçamento bom para gerar visibilidade em telas pequenas. 
+
+##  Página Inicial 
+
+![Página inicial Mobile](assets/img/visual-01-mobile.png "Primeira versão da página inicial no mobile")
+
+## Post
+
+![Página de post mobile](assets/img/post-02.png "Primeira versão da pagina de post no mobile")
+
+
+
+Bom, essa é um pouco da ideia e do visual do meu blog. Para uma primeira vez sem ajuda de especialistas, até que consegui bolar algo simples e prático, já que muitas vezes mesmo sendo um desenvolvedor front-end, pensar em protótipos me deixa frustrado.
+
+## Próximo passo
+
+No próximo post falarei sobre as tecnologias por trás do Geeker Code e como elas funcionam.
