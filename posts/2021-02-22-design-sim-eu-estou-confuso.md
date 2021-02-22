@@ -6,7 +6,7 @@ image: assets/img/png-transparent-graphic-design-cartoon-confused-student-horse-
 category: dev
 background: "#637a91"
 ---
-Bom, nessa seção irei falar do processo de criação/protótipo do meu blog. E o quão confuso é isso !
+Bom, nessa seção irei falar do processo de design/protótipo do meu blog. E o quão confuso é isso !
 
 ## Dores de um desenvolvedor front-end
 
@@ -20,7 +20,7 @@ No final tive o seguinte resultado:
 
 ## Desktop
 
-## **Página Inicial** 
+## **Página Inicial**
 
 ![Layout do blog.](assets/img/visual-01.png "Primeiro layout desktop do blog.")
 
@@ -30,7 +30,7 @@ A parte de posts é um grid simples, com destaque para o ultimo post, que toma v
 
 Além disso uma paginação no final, é claro né teremos muitos posts né não ? Precisamos paginar.
 
-##  Post
+## Post
 
 ![Visual do post](assets/img/post-01.png "Primeiro visual da página de post.")
 
@@ -44,7 +44,7 @@ Além de tudo isso, no final do post temos uma seção de indicação de outros 
 
 Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e de fato usara o seu celular para acessar. Então quando o assunto é blog, com seções de posts. Devemos sim, nos preocupar muito com a versão mobile. No meu caso, pela simplicidade, só precisei adaptar o grid de posts, a barra com minhas redes sociais e a parte interna do post, nela vem o grande trabalho de então reduzir textos, ter um espaçamento bom para gerar visibilidade em telas pequenas. 
 
-##  Página Inicial 
+## Página Inicial
 
 ![Página inicial Mobile](assets/img/visual-01-mobile.png "Primeira versão da página inicial no mobile")
 
