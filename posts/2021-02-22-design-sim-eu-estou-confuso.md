@@ -14,7 +14,7 @@ Como desenvolvedor nunca me importei com UX/UI, alias no meu trabalho tenho uma 
 
 Na verdade é bem fácil você copiar algo. Mas sempre queremos algo com a nossa cara, ou do conteúdo que tentamos propor. No meu caso, o nome do blog seria **"Geeker Code"**, então pensei na hora em várias coisas, divaguei e não saia do lugar.
 
-Até que powwww, uma ideia. Sou muito fã de **Star Wars**, e também gosto muito das cores escuras. Então decide que ia pegar essa cara mais **DARK MODE** e aplicar meu layout. E de fato deu certo e ficou muito simples. Bem do jeito que eu queria. Pois precisava de praticidade e de mobilidade da parte do usuário em sua navegação pelo blog, posts e busca.
+Até que powwww, uma ideia. Sou muito fã de **Star Wars**, e também gosto muito das cores escuras. Então decide que ia pegar essa cara mais **DARK MODE** e aplicar no meu layout. E de fato deu certo e ficou muito simples. Bem do jeito que eu queria. Pois precisava de praticidade e de mobilidade da parte do usuário em sua navegação pelo blog, posts e busca.
 
 No final tive o seguinte resultado:
 
@@ -38,7 +38,7 @@ A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquo
 
 Também temos que pensar em acessibilidade para pessoas que possuem deficiência. E que acabam usando leitores de tela entre outros. Então sempre lembre-se de por títulos e descrições em imagens e outros elementos visuais.
 
-Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo post.
+Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo.
 
 ## Mobile
 
