@@ -1,0 +1,31 @@
+---
+title: "Design: Sim eu estou confuso !"
+description: Falando um pouco sobre o design do blog.
+date: 2021-02-21 09:18:40
+image: assets/img/png-transparent-graphic-design-cartoon-confused-student-horse-purple-mammal.png
+category: dev
+background: "#637a91"
+---
+Bom, nessa seção irei falar do processo de criação/protótipo do meu blog. E o quão confuso é isso !
+
+
+
+## Dores de um desenvolvedor front-end
+
+Como desenvolvedor nunca me importei com UX/UI, alias no meu trabalho tenho uma equipe muito bacana, que faz com que eu nem precise me preocupar com isso. Mas fora desse mundo perfeito, quando me deparei em pensar algo pro meu site eu fiquei de fato muito confuso.
+
+Na verdade é bem fácil você copiar algo. Mas sempre queremos algo com a nossa cara, ou do conteúdo que tentamos propor. No meu caso, o nome do blog seria **"Geeker Code"**, então pensei na hora em várias coisas, divaguei e não saia do lugar.
+
+Até que powwww, uma ideia. Sou muito fã de **Star Wars**, e também gosto muito das cores escuras. Então decide que ia pegar essa cara mais **DARK MODE** e aplicar meu layout. E de fato deu certo e ficou muito simples. Bem do jeito que eu queria. Pois precisava de praticidade e de mobilidade da parte do usuário em sua navegação pelo blog, posts e busca.
+
+No final tive o seguinte resultado:
+
+## **Desktop (Página inicial)**
+
+![Layout do blog.](assets/img/visual-01.png "Primeiro layout desktop do blog.")
+
+Veja que é bem simples, com cores boas, um cabeçalho simples sem muitos elementos e um fundo com animação para representar estrelas no céu**(ou quem sabe flocos de neve ???)**.
+
+A parte de posts é um grid simples, com destaque para o ultimo post, que toma várias colunas a mais dos demais.
+
+Além disso uma paginação no final, é claro né teremos muitos posts né não ? Precisamos paginar.
