@@ -46,7 +46,7 @@ Além de tudo isso, no final do post temos uma seção de indicação de outros 
 
 ## Página de Busca
 
-A página de busca, simplesmente serve para filtra um post especifico, nela você pode buscar por categoria, descrição e titulo. Ela tem um ponto bem especial, foi gerado com o **Algolia** porém teremos um post falando das tecnologias e lá eu explicarei o que ele é. Sobre o design dessa página, foi a menos trabalhada até agora. Porém com o tempo irei melhorar ela.
+A página de busca, simplesmente serve para filtrar um post específico, nela você pode buscar por categoria, descrição e titulo. Ela tem um ponto bem especial, foi gerado com o **Algolia** porém teremos um post falando das tecnologias e lá eu explicarei o que ele é. Sobre o design dessa página, foi a menos trabalhada até agora. Porém com o tempo irei melhorar ela.
 
 ![Página de busca](/assets/img/pagina-busca-01.png "Primeiro visual da página de busca do blog.")
 
