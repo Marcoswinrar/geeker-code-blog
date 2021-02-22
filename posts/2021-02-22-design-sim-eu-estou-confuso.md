@@ -22,7 +22,7 @@ No final tive o seguinte resultado:
 
 ## **Página Inicial**
 
-![Layout do blog.](assets/img/visual-01.png "Primeiro layout desktop do blog.")
+![Layout do blog.](/assets/img/visual-01.png "Primeiro layout desktop do blog.")
 
 Veja que é bem simples, com cores boas, um cabeçalho simples sem muitos elementos e um fundo com animação para representar estrelas no céu**(ou quem sabe flocos de neve ???)**.
 
@@ -32,7 +32,7 @@ Além disso uma paginação no final, é claro né teremos muitos posts né não
 
 ## Post
 
-![Visual do post](assets/img/post-01.png "Primeiro visual da página de post.")
+![Visual do post](/assets/img/post-01.png "Primeiro visual da página de post.")
 
 A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquotes, links, imagens. Tudo tem que estar perfeito, para ser possível a leitura efetiva dos textos, visualização das imagens sem quebrar nada, principalmente no mobile.
 
@@ -46,11 +46,11 @@ Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e d
 
 ## Página Inicial
 
-![Página inicial Mobile](assets/img/visual-01-mobile.png "Primeira versão da página inicial no mobile")
+![Página inicial Mobile](/assets/img/visual-01-mobile.png "Primeira versão da página inicial no mobile")
 
 ## Post
 
-![Página de post mobile](assets/img/post-02.png "Primeira versão da pagina de post no mobile")
+![Página de post mobile](/assets/img/post-02.png "Primeira versão da pagina de post no mobile")
 
 Bom, essa é um pouco da ideia e do visual do meu blog. Para uma primeira vez sem ajuda de especialistas, até que consegui bolar algo simples e prático, já que muitas vezes mesmo sendo um desenvolvedor front-end, pensar em protótipos me deixa frustrado.
 
