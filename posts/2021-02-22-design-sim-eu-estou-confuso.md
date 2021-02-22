@@ -38,7 +38,11 @@ A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquo
 
 Também temos que pensar em acessibilidade para pessoas que possuem deficiência. E que acabam usando leitores de tela entre outros. Então sempre lembre-se de por títulos e descrições em imagens e outros elementos visuais.
 
-Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo.
+Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo facilitando a navegação de conteúdo.
+
+## Posts Recomendados
+
+![Post recomendado](assets/img/post-recomendado-01.png "Visual do post recomendado no blog")
 
 ## Mobile
 
