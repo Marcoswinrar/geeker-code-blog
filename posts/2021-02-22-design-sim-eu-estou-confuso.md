@@ -40,8 +40,6 @@ Também temos que pensar em acessibilidade para pessoas que possuem deficiência
 
 Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo post.
 
-
-
 ## Mobile
 
 Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e de fato usara o seu celular para acessar. Então quando o assunto é blog, com seções de posts. Devemos sim, nos preocupar muito com a versão mobile. No meu caso, pela simplicidade, só precisei adaptar o grid de posts, a barra com minhas redes sociais e a parte interna do post, nela vem o grande trabalho de então reduzir textos, ter um espaçamento bom para gerar visibilidade em telas pequenas. 
@@ -53,8 +51,6 @@ Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e d
 ## Post
 
 ![Página de post mobile](assets/img/post-02.png "Primeira versão da pagina de post no mobile")
-
-
 
 Bom, essa é um pouco da ideia e do visual do meu blog. Para uma primeira vez sem ajuda de especialistas, até que consegui bolar algo simples e prático, já que muitas vezes mesmo sendo um desenvolvedor front-end, pensar em protótipos me deixa frustrado.
 
