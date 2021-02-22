@@ -30,8 +30,10 @@ Além disso uma paginação no final, é claro né teremos muitos posts né não
 
 ## Página do Post
 
-![]()
+![Visual do post](assets/img/post-01.png "Primeiro visual da página de post.")
 
 A parte do post é bem desafiadora. Muitos elementos de texto, efeitos, blockquotes, links, imagens. Tudo tem que estar perfeito, para ser possível a leitura efetiva dos textos, visualização das imagens sem quebrar nada, principalmente no mobile.
 
 Também temos que pensar em acessibilidade para pessoas que possuem deficiência. E que acabam usando leitores de tela entre outros. Então sempre lembre-se de por títulos e descrições em imagens e outros elementos visuais.
+
+Além de tudo isso, no final do post temos uma seção de indicação de outros posts, então é só escolher ir para o anterior ou o próximo post.
