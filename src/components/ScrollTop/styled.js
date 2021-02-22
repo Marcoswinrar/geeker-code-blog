@@ -7,6 +7,7 @@ export const ScrollTopWrapper = styled(ArrowUpCircleFill) `
   height: 40px;
   color: black;
   position: fixed;
+  z-index: 1000;
   
   ${media.greaterThan("medium")`
     display:none;
