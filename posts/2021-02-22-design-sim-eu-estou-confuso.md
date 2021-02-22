@@ -44,6 +44,12 @@ Além de tudo isso, no final do post temos uma seção de indicação de outros 
 
 ![Post recomendado](assets/img/post-recomendado-01.png "Visual do post recomendado no blog")
 
+## Página de Busca
+
+A página de busca, simplesmente serve para filtra um post especifico, nela você pode buscar por categoria, descrição e titulo. Ela tem um ponto bem especial, foi gerado com o **Algolia** porém teremos um post falando das tecnologias e lá eu explicarei o que ele é. Sobre o design dessa página, foi a menos trabalhada até agora. Porém com o tempo irei melhorar ela.
+
+![Página de busca](/assets/img/pagina-busca-01.png "Primeiro visual da página de busca do blog.")
+
 ## Mobile
 
 Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e de fato usara o seu celular para acessar. Então quando o assunto é blog, com seções de posts. Devemos sim, nos preocupar muito com a versão mobile. No meu caso, pela simplicidade, só precisei adaptar o grid de posts, a barra com minhas redes sociais e a parte interna do post, nela vem o grande trabalho de então reduzir textos, ter um espaçamento bom para gerar visibilidade em telas pequenas. 
@@ -55,6 +61,11 @@ Pensando em uma grande quantidade de leitores, sabemos que a maioria poderá e d
 ## Post
 
 ![Página de post mobile](/assets/img/post-02.png "Primeira versão da pagina de post no mobile")
+
+## Página de Busca
+
+![Pagina de busca mobile.](/assets/img/pagina-busca-mobile-01.png "Primeiro visual da página de busca no celular.")
+
 
 Bom, essa é um pouco da ideia e do visual do meu blog. Para uma primeira vez sem ajuda de especialistas, até que consegui bolar algo simples e prático, já que muitas vezes mesmo sendo um desenvolvedor front-end, pensar em protótipos me deixa frustrado.
 
