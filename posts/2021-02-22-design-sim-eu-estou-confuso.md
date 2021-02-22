@@ -6,7 +6,7 @@ image: assets/img/png-transparent-graphic-design-cartoon-confused-student-horse-
 category: dev
 background: "#637a91"
 ---
-Bom, nessa seção irei falar do processo de design/protótipo do meu blog. E o quão confuso é isso !
+Bom, nessa seção irei falar do processo de design/protótipo do meu blog. E o quão confuso é isso pra mim !
 
 ## Dores de um desenvolvedor front-end
 
