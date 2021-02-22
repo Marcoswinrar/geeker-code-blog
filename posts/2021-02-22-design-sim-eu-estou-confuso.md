@@ -10,7 +10,7 @@ Bom, nessa seção irei falar do processo de design/protótipo do meu blog. E o 
 
 ## Dores de um desenvolvedor front-end
 
-Como desenvolvedor nunca me importei com UX/UI, alias no meu trabalho tenho uma equipe muito bacana, que faz com que eu nem precise me preocupar com isso. Mas fora desse mundo perfeito, quando me deparei em pensar algo pro meu site eu fiquei de fato muito confuso.
+Como desenvolvedor nunca me importei com criação de telas, somente com usabilidade do usuário, já que no meu trabalho tenho uma equipe muito bacana, que faz com que eu nem precise me preocupar com isso. Mas fora desse mundo perfeito, quando me deparei em pensar algo pro meu site eu fiquei de fato muito confuso.
 
 Na verdade é bem fácil você copiar algo. Mas sempre queremos algo com a nossa cara, ou do conteúdo que tentamos propor. No meu caso, o nome do blog seria **"Geeker Code"**, então pensei na hora em várias coisas, divaguei e não saia do lugar.
 
