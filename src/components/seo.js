@@ -26,9 +26,6 @@ function SEO({ description, lang, meta, title, image }) {
     `
   )
 
-
-
-
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const url = site.siteMetadata.siteUrl
@@ -88,7 +85,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-br`,
   meta: [],
   description: ``,
 }
