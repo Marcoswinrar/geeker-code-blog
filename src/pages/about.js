@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Avatar from "../components/Avatar"
 import SEO from "../components/seo"
 import { MainContent } from "../components/Post/styled"
 
@@ -10,7 +11,8 @@ const AboutPage = () => (
       description="Saiba um pouco sobre quem está por trás do blog!"
     />
     <MainContent>
-      <h1> Geeker Code Blog </h1>
+      <h1 style={{textAlign: 'center'}}> Geeker Code Blog </h1>
+      <Avatar />
       <p>
         Olá, me chamo Marcos Eduardo Winiarski, sou do sertão do Paraná e moro em uma cidade muito louca
         chamada Capitão Leônidas Marques. Alias acho que ninguém deve conhecer né ? (não pesquisem!!!)
