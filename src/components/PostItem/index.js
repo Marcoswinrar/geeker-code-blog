@@ -15,7 +15,8 @@ const PostItem = ({ slug, category, date, title, description, background, index,
           image={image}
         />
         :
-        <S.PostItemWrapper image={image}>
+        <S.PostItemWrapper>
+          <S.PostItemImage src={image}/>
           <S.PostItemContent>
             <S.PostItemTag background={background}>
               {category}

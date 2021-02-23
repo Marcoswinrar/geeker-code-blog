@@ -8,8 +8,6 @@ export const PostItemWrapper = styled.div`
   height: 340px;
   display: flex;
   position: relative;
-  background: url(${props => props.image}) 50% 35%;
-  background-size: cover;
 
   &:before {
     display: flex;
@@ -28,6 +26,12 @@ export const PostItemWrapper = styled.div`
     opacity: .8;
  }
 `
+
+export const PostItemImage = styled.img`
+  object-fit: cover;
+  object-position: 50% 35%
+`
+
 export const PostItemLink = styled(AniLink)`
   text-decoration: none;
 `

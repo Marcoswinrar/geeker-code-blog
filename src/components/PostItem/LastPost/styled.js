@@ -7,8 +7,6 @@ export const PostItemWrapper = styled.div`
   height: 340px;
   display: flex;
   position: relative;
-  background: url(${props => props.image}) 50% 35%;
-  background-size: cover;
 
   &:before {
     display: flex;
