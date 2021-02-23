@@ -15,7 +15,7 @@ const BlogPost = ({ data, pageContext}) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={`https://geekercode.com.br/${post.frontmatter.image}`}
+        image={post.frontmatter.image}
       />
       <S.PostHeader>
         <S.PostDate>
