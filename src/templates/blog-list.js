@@ -18,31 +18,28 @@ const BlogList = props => {
 
   return (
     <Layout>
-      <SEO title="Home" description="Geeker Code Blog"/>
+      <SEO title="Home" />
       <Row>
-        {postList.map(
-          ({
-            node: {
-              frontmatter: { category, date, title, description, background, image},
-              fields: {
-                slug
-              }
-            }
-          }, i) => (
-            <Col xs={12} md={6} lg={6} xl={GetPostGridCols(i)} key={i}>
-              <PostItem
-                slug={slug}
-                description={description}
-                category={category}
-                date={date}
-                title={title}
-                background={background}
-                index={i}
-                image={image}
-                firstPage={isFirst}
-              />
-            </Col>
-          )
+        {postList.map(({ node }, i) => (
+          <Col
+            xs={12}
+            md={6}
+            lg={6}
+            xl={GetPostGridCols(i)}
+            key={i}>
+            <PostItem
+              slug={node.fields.slug}
+              description={node.frontmatter.description}
+              category={node.frontmatter.category}
+              date={node.frontmatter.date}
+              title={node.frontmatter.title}
+              background={node.frontmatter.background}
+              image={node.frontmatter.image}
+              index={i}
+              firstPage={isFirst}
+            />
+          </Col>
+        )
         )}
       </Row>
       <Pagination
