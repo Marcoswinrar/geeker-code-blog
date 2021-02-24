@@ -2,7 +2,6 @@
 title: "Inspiração: De qual lado da força você está ?"
 description: Qual inspiração de criação por trás do Geeker Code.
 date: 2021-02-16 08:51:31
-thumbnail: assets/img/vader.jpg
 image: assets/img/vader.jpg
 category: misc
 background: "#7AAB13"
