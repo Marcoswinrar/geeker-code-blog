@@ -10,7 +10,7 @@ module.exports = {
     position: `Front-End Developer`,
     description: `Um blog para geekers e desenvolvedores.`,
     author: `Marcos Eduardo Winiarski`,
-    siteUrl: `https://geekercode.com.br/`,
+    siteUrl: `https://geekercode.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
