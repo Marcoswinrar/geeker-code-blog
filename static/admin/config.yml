@@ -6,7 +6,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
-public_folder: "/assets/img"
+public_folder: "assets/img"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -28,14 +28,13 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["investimento", "css", "js", "html", "svg", "dev", "misc"]
+        options: ["css", "js", "html", "svg", "dev", "misc"]
       }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Investimento", value: "#B31917" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#D6BA32' },
           { label: 'HTML', value: '#EB7728' },
