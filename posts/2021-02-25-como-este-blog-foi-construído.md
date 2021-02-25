@@ -18,8 +18,6 @@ Hoje falaremos do processo de construção do Geeker Code. Afinal quais tecnolog
 
 ## GatsbyJS
 
-![Gatsby](/assets/img/gatsby-png.png "Logo do Gatsby")
-
 Em uma breve pesquisada na internet podemos achar a seguinte definição.
 
 > Gatsby é uma framework escrita em JavaScript e React, cuja proposta é ajudar desenvolvedores a construir aplicações e websites de forma facilitada. O foco do Gatsby é proporcionar um desenvolvimento rápido, efetivo e performático, acima de tudo.
