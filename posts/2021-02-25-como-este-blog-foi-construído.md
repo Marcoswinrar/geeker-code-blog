@@ -8,7 +8,7 @@ background: "#637a91"
 ---
 Hoje falaremos do processo de construção do Geeker Code. Afinal quais tecnologias foram necessárias para este blog estar de pé.
 
-* [GatsbyJS](https://www.gatsbyjs.com)
+* [GatsbyJS](www.gatsbyjs.com)
 * [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-image/)
 * [GraphQL](https://graphql.org/)
 * [Styled-components](https://styled-components.com/)
