@@ -2,7 +2,7 @@
 title: Como este blog foi construído ?
 description: Quais tecnologias fizeram o Geeker Code nascer.
 date: 2021-02-24 10:27:09
-image: /assets/img/tech.png
+image: /assets/img/gatsby-cover.png
 category: dev
 background: "#637a91"
 ---
