@@ -16,6 +16,8 @@ Hoje falaremos do processo de construção do Geeker Code. Afinal quais tecnolog
 * [Netlify CMS](https://www.netlifycms.org/)
 * [Netlify](https://www.netlify.com/)
 
+  teste
+
 ## GatsbyJS
 
 Em uma breve pesquisada na internet podemos achar a seguinte definição.
