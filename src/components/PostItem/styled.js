@@ -29,7 +29,7 @@ export const PostItemWrapper = styled.div`
 
 export const PostItemImage = styled.img`
   object-fit: cover;
-  object-position: 50% 35%
+  object-position: 50% 35%;
 `
 
 export const PostItemLink = styled(AniLink)`
