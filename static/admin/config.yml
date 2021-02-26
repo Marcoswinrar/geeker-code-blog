@@ -4,9 +4,9 @@ backend:
   branch: Main
   site_domain: geekercode.com.br
 
-publish_mode: editorial_workflow
 media_folder: "static/assets/img"
-public_folder: "assets/img"
+public_folder: "/assets/img"
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
