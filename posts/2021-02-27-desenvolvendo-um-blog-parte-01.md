@@ -163,6 +163,6 @@ Interessante não ? Lembrando que esses valores de quebras das telas (tamanho) s
 
 O código fonte do meu blog está no **Github** e é público. Caso tenham interesse podem acessá-lo por aqui. **[Geeker-code-blog](https://github.com/Marcoswinrar/geeker-code-blog)**
 
-Essa é a primeira parte. Estarei lançando em breve um segundo post falando sobre deploy e ferramentas. Já que é bem interessante e normalmente o pessoal gosta de saber como todo o processo é feito.
+Essa é a primeira parte. Estarei lançando em breve um segundo post falando sobre deploy e CMS. Já que é bem interessante e normalmente o pessoal gosta de saber como todo o processo é feito.
 
 Espero que tenham gostado. E caso surjam dúvidas, podem entrar em contato comigo que ficarei feliz em responder.
