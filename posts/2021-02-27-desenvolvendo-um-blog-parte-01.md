@@ -6,7 +6,7 @@ image: assets/img/gatsby-cover.png
 category: dev
 background: "#637a91"
 ---
-Ao começar o processo de construção desse blog, optei por estudar algo novo e então adaptar as minhas metas com o que aprendi, a esse projeto. Eis que então, após algum esforço e algumas semanas de estudo o meu site nasceu. Espero que as tecnologias abaixo apresentadas, lhe tragam também a mesma vontade do desconhecido e a de criar algo a partir dele.
+Ao começar o processo de construção desse blog, optei por estudar algo novo e então adaptar as minhas metas com o que aprendi a esse projeto. Eis que então, após algum esforço e algumas semanas de estudo o meu site nasceu. Espero que as tecnologias abaixo apresentadas, lhe tragam também a mesma vontade do desconhecido e a de criar algo a partir dele.
 
 * [GatsbyJS](https://www.gatsbyjs.com/)
 * [GraphQL](https://graphql.org/)
@@ -23,7 +23,7 @@ Por se tratar de um estático o Gatsby se torna bem atrativo para apps que não 
 
 ## GraphQL
 
-![GraphQL](assets/img/graphql.png "Logo do GraphQL")
+![GraphQL](/assets/img/graphql.png "Logo do GraphQL")
 
 Assim como o React, o GraphQL também foi desenvolvido pelo facebook. Porém o seu objetivo é o consumo de dados baseado no que seu componente precisa quando é renderizado. 
 
@@ -50,7 +50,7 @@ Bacana não ?
 
 ## Styled-Components
 
-![Styled Components](assets/img/styledcomponents.png "Logo da biblioteca styled components")
+![Styled Components](/assets/img/styledcomponents.png "Logo da biblioteca styled components")
 
 Quando falamos de estilização no React, pode ter certeza que a maioria das pessoas já pensa no **Styled-Components**. Ainda mais quando não queremos bagunça no nosso projeto com colisão de classes. Até hoje tenho problemas com arquivos .**css** que por falta de padronização em um projeto, possuem em componentes diferentes, as mesmas classes, e ai mora o perigo, onde coisas malucas e estilos não desejados começam a aparecer. Por isso aprecio o uso do CSS-in-JS.
 
