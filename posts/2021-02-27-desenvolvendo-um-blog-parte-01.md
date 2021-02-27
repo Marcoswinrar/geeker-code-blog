@@ -23,7 +23,7 @@ Por se tratar de um estático o Gatsby se torna bem atrativo para apps que não 
 
 ## GraphQL
 
-![GraphQL](/assets/img/graphql.png "Logo do GraphQL")
+![GraphQL](assets/img/graphql.png "Logo do GraphQL")
 
 Assim como o React, o GraphQL também foi desenvolvido pelo facebook. Porém o seu objetivo é o consumo de dados baseado no que seu componente precisa quando é renderizado. 
 
