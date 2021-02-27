@@ -52,7 +52,7 @@ Bacana não ?
 
 ![Styled Components](/assets/img/styledcomponents.png "Logo da biblioteca styled components")
 
-Quando falamos de estilização no React, pode ter certeza que a maioria das pessoas já pensa no **Styled-Components**. Ainda mais quando não queremos bagunça no nosso projeto com colisão de classes. Até hoje tenho problemas com arquivos .**css** que por falta de padronização em um projeto, possuem em componentes diferentes, as mesmas classes, e ai mora o perigo, onde coisas malucas e estilos não desejados começam a aparecer. Por isso aprecio o uso do CSS-in-JS.
+Quando falamos de estilização no React, pode ter certeza que a maioria dos desenvolvedores já pensa no **Styled-Components**. Ainda mais quando não queremos bagunça no nosso projeto com colisão de classes. Até hoje tenho problemas com arquivos .**css** que por falta de padronização em um projeto, possuem em componentes diferentes, as mesmas classes, e ai mora o perigo, onde coisas malucas e estilos não desejados começam a aparecer. Por isso aprecio o uso do CSS-in-JS.
 
 Como eu disse anteriormente, ele atua muito bem, criando arquivos JS para estilização e automatizando nomenclatura de classes, você evita conflitos no seu projeto.
 
