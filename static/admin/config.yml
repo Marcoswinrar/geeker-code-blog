@@ -43,4 +43,4 @@ collections:
           { label: 'Misc', value: '#7AAB13' },
         ]
       }
-      - { label: "Body", name: "body", widget: "markdown" , options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }
+      - { label: "Body", name: "body", widget: "markdown" , options: { linkAttrs: { target: _blank, rel: noreferrer noopener }}}
